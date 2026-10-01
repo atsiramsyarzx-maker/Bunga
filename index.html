@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hadia Buat Kamu</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<head><link rel="icon" href="gambar.png"></head>
+<body> <!-- CODE MUSIK DI SINI -->
+    <audio autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+  </body>
+
+<body>
+
+  <div class="start-overlay" id="startOverlay">
+    <div class="icon-surprise">💌</div>
+    <div class="subtitle-surprise">Ada kejutan spesial untukmu Ghifaa</div>
+    <button class="open-btn" onclick="openMagic()">Buka Pesan ✨</button>
+  </div>
+
+  <div class="glowing-frame"></div>
+
+  <canvas id="canvas"></canvas>
+
+  <div class="ui-layer">
+
+    <div class="text-container">
+      <span class="word">I</span>
+      <span class="word">LOVE</span>
+      <span class="word highlight">YOU</span>
+      <span class="word">🤍</span>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn-replay" onclick="resetAnimation()">
+        Putar Ulang Animasi
+      </button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
